@@ -1,15 +1,21 @@
 class FSM {
+
     /**
      * Creates new FSM instance.
      * @param config
      */
-    constructor(config) {}
+    constructor(config) {
+      this.initial = config.initial;
+    }
 
     /**
-     * Returns active state.
+     * Returns active state.!
      * @returns {String}
      */
-    getState() {}
+    getState() {
+
+    }
+
 
     /**
      * Goes to specified state.
